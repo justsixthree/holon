@@ -76,6 +76,10 @@ a{
 .header-icon{
 	background-color:transparent;
 	border:none;
+	margin:0 10px;
+}
+.header-icon{
+	margin:10px 0;
 }
 .logo a{
 	text-decoration:none;
@@ -359,6 +363,7 @@ h4.content{
 }
 .facebook{
 	width:30px;
+	background-color: black;
 }
 .navbar-item{
 	line-height:1.8;
@@ -620,9 +625,7 @@ color: red;
 .colour-box{
 	opacity:0;
 }
-li:first-child {
-	margin: 0;
-  }
+
 .product-3-content{
 display: flex;
 margin: 10px 0 ;
@@ -636,9 +639,7 @@ margin: 10px 0 ;
 .product-3-upper-heading{
 	margin: 10px 0;
 }
-.product-3-about{
-	width: 100%;
-}
+
 .product-3-aboutus{
 	width: 25%;
 	border: 2px solid #707070;
@@ -715,7 +716,6 @@ color: #707070;
 margin: 10px;
 }
 .facebook{
-background-color: black;
 height: 15px;
 width: 15px;
 margin-left: 10px;
@@ -730,12 +730,157 @@ margin-left: 10px;
 	align-items: baseline;
 	margin: 10px;
 }
-.product-3-about-us{
-	width: 100%;
-}
-.product-3-about{
-	display: flex;
-}
 .section{
 	padding: 20px 0;
+}
+.product-3-about-us{
+	display: flex;
+}
+.product-3-about{
+	margin-right: 10px;
+}
+.products-3-info{
+text-align: center;
+margin:20px;
+}
+.product-3-middle{
+	width: 50%;
+}
+.i1{
+	display: flex;   
+	justify-content: space-around;
+	align-items: flex-end;
+	border-bottom: 1px solid #707070;
+}
+.product-middle-bar{
+	margin:20px 0;
+}
+.product-3-middle-icons{
+	margin:20px 0;
+}
+.products-3-about-middle-bar{
+	width: 50%;
+}
+.comment__reviews{
+	display: flex;
+}
+.products-3-about-middle-bar{
+	border-left: 2px solid #707070;
+	margin-left: 40px;
+}
+.box-3{
+	margin: 10px;
+}
+.symbol{
+	margin: 10px;
+}
+.commit{
+	margin: 10px;
+}
+/* product-2-end */
+/* .product-3-start */
+.holon{
+	text-align: center;
+	color: #707070;
+	margin:20px 0;
+}
+.about-company{
+	text-align: center;
+	color: #707070;
+	margin:20px 0;
+}
+.product-page-3-about{
+	width: 100%;
+	display: flex;
+}
+.product-page-3-about-us{
+	width: 33%;
+	text-align: center;
+}
+.why-holon{
+	background-color:white;
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.16);
+	margin-left: 10px;
+	height: 100px;
+	line-height: 100px;
+}
+.why-holon-product{
+	background-color:white;
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.16);
+	margin-left: 10px;
+	height: 100px;
+	line-height: 100px;
+}
+.why-holon-product-3{
+	background-color:white;
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.16);
+	margin-left: 10px;
+	height: 100px;
+	line-height: 100px;
+}
+/*product-3-end*/
+/* product-4-start */
+.email{
+	padding:29px;
+	border-radius:50px;
+	max-width:325px;
+	width:100%;
+	margin:10px -50px;
+	text-align:start;
+	background-color:#fff;
+}
+.mail{
+	padding:29px;
+	border-radius:50px;
+	max-width:325px;
+	width:100%;
+	margin:10px 0;
+	text-align:start;
+	background-color:#fff;	
+}
+.e-mail-placeholder{
+	margin:10px 0;
+	text-align:start;
+	background-color:#fff;
+	padding:29px;
+	border-radius:50px;
+	max-width:650px;
+	width:100%;
+}
+.upper-contact{
+	text-align: center;
+	color: #707070;
+	margin: 10px;
+}
+.contact{
+	text-align: center;
+	color: #707070;
+	margin: 20px;
+}
+.-mail-placeholder{
+	margin:10px 0;
+	text-align:start;
+	background-color:#fff;
+	padding:29px;
+	border-radius:30px;
+	max-width:650px;
+	width:100%;
+	height: 150px;
+}
+.sub-button{
+	width: 100%;
+	height: 25%;
+	background:black;
+	border-radius:50px;
+	display:inline-block;
+	color: #fff;	
+}
+.contact-us-3{
+	display: flex;
+}
+.contact-upper{
+	display: flex;
+}
+.mail ,.email{
+	width: 50%;
 }
