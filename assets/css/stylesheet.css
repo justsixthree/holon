@@ -31,6 +31,11 @@ a{
 :focus{
 	outline:none;
 }
+
+.header,.nav-list,.product-list,.product-item,.product-page-3-about,.contact-upper,.contact-company,.contact-for-product,.contact-us-3,.contact-upper{
+	display:flex;
+}
+
 .bg-gray{
 	background-color:#E4E4E4;
 }
@@ -50,13 +55,13 @@ a{
 }
 
 .header{
-	display:flex;
+
 	align-items:center;
 	justify-content:space-between;
 	padding-left:40px;
 }
 .nav-list{
-	display:flex;
+
 	list-style:none;
 	
 }
@@ -76,7 +81,7 @@ a{
 .header-icon{
 	background-color:transparent;
 	border:none;
-	margin:0 10px;
+	margin: 10px;
 }
 .header-icon{
 	margin:10px 0;
@@ -112,13 +117,13 @@ a{
 	text-decoration:none;
 }
 .product-list{
-	display:flex;
+
 	
 	margin-left:-15px;
 	margin-right:-15px;
 }
 .product-item{
-	display:flex;
+
 	justify-content:space-between;
 	width:33.3%;
 	background-color:#E4E4E4;
@@ -334,11 +339,12 @@ h4.content{
 	border-radius:50px;
 	max-width:655px;
 	width:100%;
-	margin:40px 50px;
+	
 	text-align:start;
 	background-color:#fff;
 }
 .e-maiil{
+	margin: 40px 0;
 	display:flex;
 	align-items:center;
 	justify-content:space-between;
@@ -363,7 +369,7 @@ h4.content{
 }
 .facebook{
 	width:30px;
-	background-color: black;
+
 }
 .navbar-item{
 	line-height:1.8;
@@ -570,10 +576,6 @@ li:nth-child(8){
 	text-align: center;
 	color: #707070;
 }
-
-.section-sm{
-	width: 100%;
-}
 .product-3-image{
 	width: 50%;
 }
@@ -581,17 +583,15 @@ li:nth-child(8){
 	width: 25%;
 	margin: 10px 0 0 10px;
 }
-.product-3-imags{
+.product-3-imags,.sec-info,.section-info{
 	width: 100%;
 	display: flex;
 	margin-left:10px ;
 }
-.sec-info{
-	display: flex;
+.sec-info{	
 	margin-bottom: 10px;
 }
 .section-info{
-	display: flex;
 	margin-bottom: 10px;
 }
 .stars{
@@ -605,10 +605,10 @@ li:nth-child(8){
 }
 .stars-info{
 	font-size: 16px;
-margin: 10px;
+	margin: 10px;
 }
 .sec-info-rps{
-color: red;
+	color: red;
 }
 .section-inf{
 	font-weight: 700;
@@ -633,10 +633,7 @@ margin: 10px 0 ;
 .product-content-3-content{
 	font-weight: 700;
 }
-.product-3-heading{
-	margin: 10px 0;
-}
-.product-3-upper-heading{
+.product-3-heading,.product-3-upper-heading{
 	margin: 10px 0;
 }
 
@@ -644,15 +641,11 @@ margin: 10px 0 ;
 	width: 25%;
 	border: 2px solid #707070;
 }
-.sec-info{
-	margin: 10px 0 0 10px;
-}
-.info-product-3{
+.sec-info,.info-product-3,.stock{
 	margin: 10px 0 0 10px;
 }
 .stock{
 	color:#00C20D;
-	margin: 10px 0 0 10px;
 }
 .stock-upper{
 	margin: 10px 0 0 10px;
@@ -768,119 +761,82 @@ margin:20px;
 	border-left: 2px solid #707070;
 	margin-left: 40px;
 }
-.box-3{
+.box-3,.symbol,.commit{
 	margin: 10px;
 }
-.symbol{
-	margin: 10px;
-}
-.commit{
-	margin: 10px;
-}
+
 /* product-2-end */
 /* .product-3-start */
-.holon{
+.holon,.about-company,.product-page-3-about-us{
 	text-align: center;
 	color: #707070;
 	margin:20px 0;
-}
-.about-company{
-	text-align: center;
-	color: #707070;
-	margin:20px 0;
-}
-.product-page-3-about{
-	width: 100%;
-	display: flex;
 }
 .product-page-3-about-us{
 	width: 33%;
-	text-align: center;
 }
-.why-holon{
+.why-holon,.why-holon-product-3,.why-holon-product{
 	background-color:white;
 	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.16);
 	margin-left: 10px;
-	height: 100px;
-	line-height: 100px;
+	padding:40px 0;
 }
-.why-holon-product{
-	background-color:white;
-	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.16);
-	margin-left: 10px;
-	height: 100px;
-	line-height: 100px;
-}
-.why-holon-product-3{
-	background-color:white;
-	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.16);
-	margin-left: 10px;
-	height: 100px;
-	line-height: 100px;
-}
+
 /*product-3-end*/
 /* product-4-start */
-.email{
-	padding:29px;
+
+.email,.mail,.e-mail-placeholder,.-mail-placeholder,.sub-button{
 	border-radius:50px;
-	max-width:325px;
-	width:100%;
-	margin:10px -50px;
 	text-align:start;
-	background-color:#fff;
+	padding:30px;
+	width:100%;
+	border: 1px solid #848484;
 }
-.mail{
-	padding:29px;
-	border-radius:50px;
+.email,.mail{
 	max-width:325px;
-	width:100%;
-	margin:10px 0;
-	text-align:start;
-	background-color:#fff;	
+}
+.mail,.e-mail-placeholder{
+	margin:10px 0;	
 }
 .e-mail-placeholder{
-	margin:10px 0;
-	text-align:start;
-	background-color:#fff;
-	padding:29px;
-	border-radius:50px;
 	max-width:650px;
-	width:100%;
 }
-.upper-contact{
+.upper-contact,.contact{
 	text-align: center;
 	color: #707070;
 	margin: 10px;
 }
 .contact{
-	text-align: center;
-	color: #707070;
 	margin: 20px;
 }
 .-mail-placeholder{
 	margin:10px 0;
-	text-align:start;
-	background-color:#fff;
-	padding:29px;
 	border-radius:30px;
-	max-width:650px;
-	width:100%;
 	height: 150px;
 }
 .sub-button{
-	width: 100%;
-	height: 25%;
+	margin: 20px 0;
 	background:black;
-	border-radius:50px;
 	display:inline-block;
-	color: #fff;	
-}
-.contact-us-3{
-	display: flex;
-}
-.contact-upper{
-	display: flex;
+	color: #fff;
+	text-align: center;
 }
 .mail ,.email{
 	width: 50%;
+}
+.mail{
+margin-right: 10px;
+}
+.product-4-about{
+margin-top: 10px;
+font-size: 10px;
+}
+.contact-for-product{
+	margin: 10px 0;
+}
+.contact-us-3{
+	align-items: center;
+}
+.product-4-about,.contact-for-product,.contact-company{
+	padding-left: 30px;
 }
